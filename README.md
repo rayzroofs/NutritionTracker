@@ -1,6 +1,6 @@
 # NutritionTracker
-Allows user to input their serving size and the nutirtional info for a food. Nutrional values will be calculated and stored with corresponding dates for when the items were logged.
-
+Allows user to input their serving size and the nutirtional info for a food. Nutrional values will be calculated and stored with corresponding dates for when the items were logged.  
+  
 FoodItem.java:  
   - object that contains nutritional data for a food item  
 NutritionCalclator.Java:  
