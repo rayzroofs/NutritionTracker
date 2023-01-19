@@ -67,21 +67,11 @@ public class nutritionCalculator {
 
     public NutritionLog calculateAllNutrition() {
         //this makes calculator do the method using parameter passed to it in constructor
+        //returns a NutritionLog to be stored in hashmap
         this.caloriesCalculation();
-        //  System.out.println("Your Calories:");
-        // System.out.print(caloriesResult + "\n");
-
         this.proteinCalculation();
-        //  System.out.println("Your Protein:");
-        //  System.out.print(proteinResult + "\n");
-
         this.fatCalculation();
-        //  System.out.println("Your Fat:");
-        //  System.out.print(fatResult + "\n");
-
         this.carbsCalculation();
-        // System.out.println("Your Carbs:");
-        // System.out.print(carbsResult + "\n");
 
         return new NutritionLog(caloriesResult, proteinResult, fatResult, carbsResult);
     }
