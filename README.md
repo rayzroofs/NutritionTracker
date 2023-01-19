@@ -3,6 +3,7 @@ Allows user to input their serving size and the nutirtional info for a food. Nut
   
 FoodItem.java:  
   - object that contains nutritional data for a food item  
+  
 NutritionCalclator.Java:  
   - contains methods for calculating nutritional values based on serving size and nutrtional data of a given FoodItem   
 NutritionLog.java:  
